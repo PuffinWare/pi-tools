@@ -1,1 +1,1 @@
-x11vnc -display :0 -auth ~/.Xauthority
+x11vnc -shared -forever -display :0 -auth ~/.Xauthority
